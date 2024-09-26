@@ -105,7 +105,7 @@ const AssessmentManagement = () => {
 
   const fetchGuides = async () => {
     try {
-      const response = await axios.get('http://13.126.132.43:5007/api/guide/');
+      const response = await axios.get('http://44.196.192.232:5007/api/guide/');
       setGuides(response.data.data);
       setMasterData(response.data.data);
     } catch (error) {
